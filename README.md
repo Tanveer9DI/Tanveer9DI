@@ -1,12 +1,12 @@
-# Hi there 👋, I'm Tanveer Ahmed
+# Hi there 👋, I'm Tanveer Ahmed Khan
 
 <div align="center">
   <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
 </div>
 
-## 💻 Software Developer | 📱 Android Enthusiast | 🤖 AI Explorer
+## 🧠 Sr. GenAI Engineer | 🤖 ML | 📊 NLP | 📈 Data Scientist
 
-I'm passionate about building innovative software solutions and exploring new technologies. Currently focused on Android development and expanding my knowledge in AI and machine learning.
+I'm a passionate AI professional with expertise in Generative AI, Machine Learning, and Natural Language Processing. Currently working at 9D Technologies, with previous experience at AI Dev Lab, Telenor, and Dev Hub. I hold an MS in Data Science from FAST-NUCES and a BS in Software Engineering.
 
 <div align="center">
   <a href="https://github.com/Tanveer9DI?tab=followers">
@@ -27,12 +27,13 @@ I'm passionate about building innovative software solutions and exploring new te
 
 ## 🧠 About Me:
 
-- 🔭 I'm currently working on **Android SDK development**
-- 🌱 I'm currently learning **Advanced Android Architecture and AI Integration**
-- 👯 I'm looking to collaborate on **Open Source Projects**
-- 💬 Ask me about **Android, Kotlin, Java, and Software Architecture**
-- 📫 How to reach me: [Email me](mailto:your-email@example.com)
-- ⚡ Fun fact: I enjoy exploring new technologies and building innovative solutions
+- 🔭 I'm currently working as a **Sr. GenAI Engineer at 9D Technologies**
+- 🎓 I hold an **MS in Data Science from FAST-NUCES** and a **BS in Software Engineering**
+- 🌱 I'm currently exploring **Advanced AI models and Large Language Model applications**
+- 👯 I'm looking to collaborate on **AI and Machine Learning Open Source Projects**
+- 💬 Ask me about **GenAI, Machine Learning, NLP, Data Science, and AI applications**
+- 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/tanveer-ahmed-khan-b089461a3/)
+- ⚡ Fun fact: I enjoy solving complex problems and exploring cutting-edge AI technologies
 
 ---
 
@@ -47,12 +48,14 @@ I'm passionate about building innovative software solutions and exploring new te
 ## 🛠️ Languages and Tools:
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/>
   <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="docker" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="mongodb" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="postgresql" width="40" height="40"/>
 </div>
 
 ---
@@ -70,11 +73,8 @@ I'm passionate about building innovative software solutions and exploring new te
 ## 📫 Connect with me:
 
 <div align="center">
-  <a href="https://linkedin.com/in/your-linkedin">
+  <a href="https://linkedin.com/in/tanveer-ahmed-khan-b089461a3">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-  <a href="https://twitter.com/your-twitter">
-    <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
   </a>
 </div>
 
