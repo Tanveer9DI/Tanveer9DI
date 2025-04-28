@@ -1,8 +1,6 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/gist/patevs/b007a0e98fb216438d4cbf559fac4166/raw/88f20c9d749d756be63f22b09f3c4ac570bc5101/programming.gif" alt="AI and ML Banner" width="100%">
+  <img src="https://raw.githubusercontent.com/Tanveer9DI/Tanveer9DI/main/assets/genai-banner.svg" alt="Tanveer Ahmed - GenAI Expert | ML Specialist | NLP Professional" width="100%">
 </div>
-
-<h1 align="center">Hi there 👋, I'm Tanveer Ahmed Khan</h1>
 
 <h3 align="center">
   <img src="https://img.shields.io/badge/GenAI-Expert-FF6F61?style=for-the-badge" alt="GenAI Expert"/>
