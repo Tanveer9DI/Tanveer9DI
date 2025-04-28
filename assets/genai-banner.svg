@@ -1,0 +1,260 @@
+<svg fill="none" viewBox="0 0 1200 400" width="1200" height="400" xmlns="http://www.w3.org/2000/svg">
+	<foreignObject width="100%" height="100%">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<style>
+				@keyframes gradientBackground {
+					0% {
+						background-position: 0% 50%;
+					}
+					50% {
+						background-position: 100% 50%;
+					}
+					100% {
+						background-position: 0% 50%;
+					}
+				}
+                
+                @keyframes fadeIn {
+                    0% {
+                        opacity: 0;
+                    }
+                    100% {
+                        opacity: 1;
+                    }
+                }
+                
+                @keyframes float {
+                    0% {
+                        transform: translateY(0px);
+                    }
+                    50% {
+                        transform: translateY(-20px);
+                    }
+                    100% {
+                        transform: translateY(0px);
+                    }
+                }
+                
+                @keyframes pulse {
+                    0% {
+                        transform: scale(1);
+                        opacity: 1;
+                    }
+                    50% {
+                        transform: scale(1.05);
+                        opacity: 0.8;
+                    }
+                    100% {
+                        transform: scale(1);
+                        opacity: 1;
+                    }
+                }
+                
+                @keyframes blink {
+                    0% {
+                        opacity: 0.2;
+                    }
+                    50% {
+                        opacity: 0.8;
+                    }
+                    100% {
+                        opacity: 0.2;
+                    }
+                }
+                
+                @keyframes rotate {
+                    from {
+                        transform: rotate(0deg);
+                    }
+                    to {
+                        transform: rotate(360deg);
+                    }
+                }
+                
+                @keyframes typing {
+                    from {
+                        width: 0;
+                    }
+                    to {
+                        width: 100%;
+                    }
+                }
+                
+				.container {
+					font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					justify-content: center;
+					margin: 0;
+					width: 100%;
+					height: 400px;
+					background: linear-gradient(125deg, #330867, #30cfd0, #5f0a87, #4b6cb7);
+					background-size: 400% 400%;
+					animation: gradientBackground 15s ease infinite;
+					color: white;
+					text-align: center;
+                    position: relative;
+                    overflow: hidden;
+				}
+                
+                .neural-network {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0.1;
+                    background-image: 
+                        radial-gradient(circle, rgba(255,255,255,0.3) 2px, transparent 2px),
+                        linear-gradient(to right, rgba(255,255,255,0.1) 1px, transparent 1px),
+                        linear-gradient(to bottom, rgba(255,255,255,0.1) 1px, transparent 1px);
+                    background-size: 50px 50px, 25px 25px, 25px 25px;
+                    z-index: 1;
+                }
+                
+                .node {
+                    position: absolute;
+                    width: 6px;
+                    height: 6px;
+                    background: rgba(255, 255, 255, 0.7);
+                    border-radius: 50%;
+                    z-index: 2;
+                }
+                
+                .node-1 { top: 20%; left: 30%; animation: blink 3s infinite; }
+                .node-2 { top: 40%; left: 70%; animation: blink 4s infinite; }
+                .node-3 { top: 70%; left: 20%; animation: blink 5s infinite; }
+                .node-4 { top: 30%; left: 80%; animation: blink 3.5s infinite; }
+                .node-5 { top: 60%; left: 40%; animation: blink 4.5s infinite; }
+                .node-6 { top: 80%; left: 60%; animation: blink 3.2s infinite; }
+                .node-7 { top: 25%; left: 50%; animation: blink 4.2s infinite; }
+                .node-8 { top: 75%; left: 75%; animation: blink 3.7s infinite; }
+                
+                .connection {
+                    position: absolute;
+                    height: 1px;
+                    background: linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,0.5), rgba(255,255,255,0));
+                    z-index: 1;
+                    transform-origin: 0 0;
+                }
+                
+                .brain-container {
+                    position: relative;
+                    margin-bottom: 20px;
+                    z-index: 3;
+                    animation: float 6s ease-in-out infinite;
+                }
+                
+                .brain {
+                    font-size: 80px;
+                    filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.5));
+                }
+                
+                .gear {
+                    position: absolute;
+                    font-size: 30px;
+                    animation: rotate 10s linear infinite;
+                }
+                
+                .gear-1 {
+                    top: -10px;
+                    right: -15px;
+                }
+                
+                .gear-2 {
+                    bottom: -5px;
+                    left: -15px;
+                    animation-direction: reverse;
+                    animation-duration: 7s;
+                }
+                
+				h1 {
+					font-size: 70px;
+					line-height: 1.3;
+                    font-weight: 800;
+                    text-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+                    z-index: 3;
+                    margin: 0;
+                    background: linear-gradient(to right, #ffffff, #c9d6ff);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    animation: pulse 3s ease-in-out infinite;
+				}
+                
+                .title-container {
+                    position: relative;
+                    margin-bottom: 20px;
+                    z-index: 3;
+                }
+                
+                .subtitle {
+                    font-size: 28px;
+                    background: rgba(0, 0, 0, 0.2);
+                    padding: 10px 20px;
+                    border-radius: 20px;
+                    margin-top: 20px;
+                    border: 1px solid rgba(255, 255, 255, 0.2);
+                    z-index: 3;
+                    animation: fadeIn 2s ease-in-out;
+                    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+                }
+                
+                .highlight {
+                    color: #30cfd0;
+                    font-weight: bold;
+                }
+                
+                .typing-text {
+                    position: absolute;
+                    bottom: 20px;
+                    font-family: monospace;
+                    font-size: 16px;
+                    color: rgba(255, 255, 255, 0.7);
+                    overflow: hidden;
+                    white-space: nowrap;
+                    border-right: 3px solid;
+                    width: 0;
+                    animation: typing 4s steps(40, end) forwards, blink 1s step-end infinite;
+                    z-index: 3;
+                }
+			</style>
+            <div class="container">
+                <div class="neural-network"></div>
+                
+                <div class="node node-1"></div>
+                <div class="node node-2"></div>
+                <div class="node node-3"></div>
+                <div class="node node-4"></div>
+                <div class="node node-5"></div>
+                <div class="node node-6"></div>
+                <div class="node node-7"></div>
+                <div class="node node-8"></div>
+                
+                <div class="connection" style="width: 200px; top: 20%; left: 30%; transform: rotate(25deg);"></div>
+                <div class="connection" style="width: 250px; top: 40%; left: 40%; transform: rotate(-15deg);"></div>
+                <div class="connection" style="width: 180px; top: 60%; left: 20%; transform: rotate(45deg);"></div>
+                <div class="connection" style="width: 220px; top: 30%; left: 50%; transform: rotate(-30deg);"></div>
+                <div class="connection" style="width: 190px; top: 70%; left: 60%; transform: rotate(10deg);"></div>
+                
+                <div class="brain-container">
+                    <div class="brain">🧠</div>
+                    <div class="gear gear-1">⚙️</div>
+                    <div class="gear gear-2">⚙️</div>
+                </div>
+                
+                <div class="title-container">
+                    <h1>TANVEER AHMED</h1>
+                </div>
+                
+                <div class="subtitle">
+                    <span class="highlight">GenAI Expert</span> | <span class="highlight">ML Specialist</span> | <span class="highlight">NLP Professional</span>
+                </div>
+                
+                <div class="typing-text">
+                    Building the future with AI at 9D Technologies
+                </div>
+            </div>
+		</div>
+	</foreignObject>
+</svg>
